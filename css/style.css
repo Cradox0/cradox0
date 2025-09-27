@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+}
+nav {
+  height: 15vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+.logo {
+  height: 15vh;
+  width: 15vw;
+  background-color: #000000;
+  color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+.menu {
+  height: 15vh;
+  width: 85vw;
+  background-color: #050504;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: row;
+}
+.equipos{
+  width: 9vw;
+  height: 18vh;
+  position: absolute;
+  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  padding-right: 3rem;
+}
+li {
+  margin-right: 2rem;
+  font-size: 20px;
+}
+
+.biograf{
+  width: 20vw;
+  height: 25vh;
+  margin: 35px 38px 20px 38px;
+  border-radius: 30px;
+
+}
+
+section {
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.izq {
+  width: 75vw;
+  height: 85vh;
+  background:linear-gradient(to bottom,rgb(59, 59, 59),rgb(173, 172, 172))
+}
+.der {
+  color: #ffffff;
+  background-color: #000000;
+  width: 25vw;
+  height: 85vh;
+  border-left: 1px solid rgb(71, 71, 71);
+}
+h2{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+p{
+text-align:center;
+padding: 0 20px;
+}
+
+.izq-sup {
+  width: 75vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+}
+.izq-inf {
+  width: 75vw;
+  height: 25vh;
+  flex-direction: row;
+  display: flex;
+}
+.texto-izq {
+  width: 37.5vw;
+  height: 60vh;
+}
+.texto-der {
+  width: 37.5vw;
+  height: 60vh;
+}
+
+
+.background{
+    width: 75vw;
+    height: 85vh;
+    position: absolute;
+}
+.logoimg{
+  height: 15vh;
+  width: 10vw;
+}
+.cont{
+  width: 5vw;
+  height: 10vh;
+}
+
+.cont2,
+.cont3,
+.cont4
+ {
+  width: 15vw;
+  height: 20vh;
+  margin: 45px;
+  margin-top: 0.1px;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6e706e9d;
+
+}
+
+.cont1,.cont5{
+  height: 10vh;
+  width: 5vw;
+  margin-top: 50px;
+  border-radius: 10px;
+  opacity: 99%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
